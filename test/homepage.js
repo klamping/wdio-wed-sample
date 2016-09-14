@@ -26,7 +26,7 @@ describe('webdriver.io page', function() {
           assert.equal(title, 'WebdriverIO - API Docs');
       })
 
-      it.only('should filter search results', function (){
+      it.skip('should filter search results', function (){
         var selector = 'input[name="search"]';
           browser.url('/api.html');
 
